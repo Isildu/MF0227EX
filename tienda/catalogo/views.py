@@ -35,4 +35,4 @@ def nuevo_producto(request):
     else:
         form = ProductoForm()
 
-    return render(request, 'catalogo/formulario.html', {'form': form})
+    return render(request, 'catalogo/formularios.html', {'form': form})
